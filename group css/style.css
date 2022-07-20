@@ -27,11 +27,14 @@ main{
 .dis-btn{
     display: none;
 }
+
 /* Media Queary Start  */
 
 
 @media only screen and (min-width: 668px) and (max-width:992px){ 
+
     /* banner section css  */
+
     .container {
         width: 900px;
         margin-bottom: 30px;
@@ -46,6 +49,7 @@ main{
     }
 
     /* banner section css  end*/
+
     /* match css start  */
     
     .match {
@@ -72,7 +76,7 @@ main{
     .btnn {
         border: 1px solid #E8E8E8;
     }
-  /* match css start  */
+  
 
   .match-contents{
     display: grid;
@@ -96,11 +100,16 @@ main{
     color: #fff;
 }
 
+/* match css start  */
+
+/* footer css start  */
+
 .ftr-title h2 {
     padding-top: 40px;
     padding-bottom: 0;
 }
 
+/* footer css end  */
 
 }
 

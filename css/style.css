@@ -52,6 +52,11 @@ main{
     background: #DD0000;
     border-radius: 5px;
     padding: 16px 25px;
+    transition: .5s ease-in;
+}
+.btn:hover{
+    background-color: #E8E8E8;
+    color: #000;
 }
 /* Match CSS Start  */
 .matches{
@@ -196,9 +201,6 @@ hr{
     color: #B9B9B9;
 }
 
-
-
-
 /* Footer CSS */
 
 
@@ -247,7 +249,7 @@ hr{
     .btnn {
         border: 1px solid #E8E8E8;
     }
-  /* match css start  */
+  
 
   .match-contents{
     display: grid;
@@ -270,7 +272,8 @@ hr{
     text-align: center;
     color: #fff;
 }
-
+/* match css end  */
+/* footer css start  */
 .ftr-title h2 {
     padding-top: 40px;
     padding-bottom: 0;
@@ -282,6 +285,9 @@ hr{
 
 @media only screen and (max-width:668px){
    
+/* banner section css  */
+
+
     .container{
         width: 100%;
     }
@@ -306,7 +312,8 @@ hr{
         padding-top: 10px;
         margin-left: 110px;
     }
-
+/* banner section end  */
+/* match css start  */
     .match {
         display: block;
         grid-column-gap: 30px;
@@ -359,6 +366,10 @@ hr{
     .disp{
         display: none;
     }
+
+/* match css End  */
+/* footer css start  */
+
     .ftr{
         width: 100%;
     }
@@ -375,6 +386,7 @@ hr{
         display: block;
         margin: 20px;
     }
+    /* footer css End  */
 }
 
 /* Media Queary End  */
